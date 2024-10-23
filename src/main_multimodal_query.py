@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Step 2: Load the model and processor from the saved paths
-model_save_path = "/Users/AMET-EEE/PycharmProjects/multimodal_ai/model"  # Replace with your actual path
-processor_save_path = "/Users/AMET-EEE/PycharmProjects/multimodal_ai/processor"  # Replace with your actual path
+model_save_path = "directory_path"  # Replace with your actual path
+processor_save_path = "directory_path"  # Replace with your actual path
 
 model = CLIPModel.from_pretrained(model_save_path).to(device)
 processor = CLIPProcessor.from_pretrained(processor_save_path)
@@ -18,9 +18,9 @@ model.eval()
 
 # List of image paths
 image_paths = [
-    "/Users/AMET-EEE/PycharmProjects/multimodal_ai/image_1.jfif",
-    "/Users/AMET-EEE/PycharmProjects/multimodal_ai/image_2.jfif",
-    "/Users/AMET-EEE/PycharmProjects/multimodal_ai/image_3.jfif"
+    "local_image_path",
+    "local_image_path",
+    "local_image_path"
 ]
 
 # Text query
