@@ -21,6 +21,7 @@ The next part of the code loads the model and processor, prepares a list of imag
 Execute the script. It will output the similarity scores and display the top images that match the query.
 
 
+# Reference
 This project utilizes the Hugging Face Transformers library for loading the CLIP model. You can find the model details and documentation https://huggingface.co/
 
 
