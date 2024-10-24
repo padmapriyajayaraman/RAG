@@ -1,5 +1,5 @@
-torch
-torchvision
-transformers
-matplotlib
-Pillow
+torch==2.4.1
+torchvision==0.19.1
+transformers==4.45.2
+matplotlib==3.9.2
+pillow==10.4.0
