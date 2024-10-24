@@ -3,3 +3,4 @@ torchvision==0.19.1
 transformers==4.45.2
 matplotlib==3.9.2
 pillow==10.4.0
+# Requires Python 3.11
